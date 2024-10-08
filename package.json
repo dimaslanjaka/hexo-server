@@ -10,11 +10,11 @@
     "build": "tsc -b tsconfig.json"
   },
   "directories": {
-    "lib": "./lib"
+    "lib": "./dist"
   },
   "files": [
-    "index.js",
-    "lib/"
+    "dist/",
+    "certificates/"
   ],
   "repository": "hexojs/hexo-server",
   "homepage": "https://hexo.io/",
