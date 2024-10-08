@@ -2,11 +2,12 @@
   "name": "hexo-server",
   "version": "3.0.0",
   "description": "Server module of Hexo.",
-  "main": "index",
+  "main": "dist/index.js",
   "scripts": {
     "eslint": "eslint .",
     "test": "mocha test/index.js",
-    "test-cov": "nyc --reporter=lcovonly npm run test"
+    "test-cov": "nyc --reporter=lcovonly npm run test",
+    "build": "tsc -b tsconfig.json"
   },
   "directories": {
     "lib": "./lib"
@@ -38,6 +39,8 @@
     "serve-static": "^1.15.0"
   },
   "devDependencies": {
+    "@types/mocha": "^10.0.9",
+    "@types/node": "18",
     "chai": "^4.3.6",
     "chai-as-promised": "^7.1.1",
     "eslint": "^8.23.0",

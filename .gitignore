@@ -4,3 +4,5 @@ tmp/
 *.log
 .idea/
 .nyc_output/
+dist/
+tmp/
