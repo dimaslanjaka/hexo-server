@@ -13,8 +13,7 @@
     "lib": "./dist"
   },
   "files": [
-    "dist/",
-    "certificates/"
+    "dist/"
   ],
   "repository": "hexojs/hexo-server",
   "homepage": "https://hexo.io/",
@@ -56,6 +55,6 @@
     "uuid": "^9.0.0"
   },
   "engines": {
-    "node": ">=14"
+    "node": ">=18"
   }
 }
