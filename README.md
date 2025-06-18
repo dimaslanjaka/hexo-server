@@ -25,9 +25,9 @@ Option | Description | Default
 `-s`, `--static` | Only serve static files. | `false`
 `-l`, `--log [format]` | Enable logger. Override log format. | `false`
 `-o`, `--open` | Immediately open the server url in your default web browser. | `false`
-`-c`, `--cert` | Certificate path | `<lib>/certificates/localhost.crt`
-`-ck`, `--key` | Certificate key path | `<lib>/certificates/localhost.key`
-`h`, `--ssl` | Enable SSL localhost. If `--cert` and `--key` is present, ssl will enabled automatically. If `--cert` and `--key` is not present, but `--ssl` is preset, default certificate will be applied. | `false`
+`-c`, `--cert` | Certificate path | `/path/to/cert.crt`
+`-ck`, `--key` | Certificate key path | `/path/to/key.key`
+`--ssl` | Enable SSL localhost. If `--cert` and `--key` are present, SSL will be enabled automatically. If `--cert` and `--key` are not present, but `--ssl` is present, Hexo will automatically generate a self-signed certificate. | `false`
 
 ## Options
 
