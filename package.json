@@ -35,7 +35,7 @@
     "mime": "^3.0.0",
     "morgan": "^1.10.0",
     "open": "^8.4.0",
-    "picocolors": "^1.0.0",
+    "picocolors": "^1.1.1",
     "serve-static": "^1.15.0"
   },
   "devDependencies": {
@@ -45,7 +45,7 @@
     "chai-as-promised": "^7.1.1",
     "eslint": "^8.23.0",
     "eslint-config-hexo": "^5.0.0",
-    "hexo": "^7.1.1",
+    "hexo": "*",
     "hexo-fs": "^4.0.0",
     "hexo-util": "^3.0.1",
     "mocha": "^10.0.0",
