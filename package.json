@@ -8,7 +8,9 @@
     "eslint": "eslint .",
     "test": "mocha test/index.js",
     "test-cov": "nyc --reporter=lcovonly npm run test",
-    "build": "tsc -b tsconfig.json"
+    "build-dts": "tsc --emitDeclarationOnly --declaration --noEmit false -p tsconfig.json",
+    "build": "tsc -b tsconfig.json && npm run build-dts",
+    "watch": "npx -y nodemon --delay 5 --watch build.js --watch lib --ext js,ts --exec \"yarn build > build.log 2>&1 && yarn workspace hexo-site exec \\\"hexo generate --verbose --debug\\\"\""
   },
   "directories": {
     "lib": "./dist"
