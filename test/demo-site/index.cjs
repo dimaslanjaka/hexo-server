@@ -1,3 +1,5 @@
+'use strict';
+
 const hexo = require('hexo');
 const { inspect } = require('util');
 
