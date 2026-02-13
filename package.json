@@ -18,6 +18,9 @@
   "files": [
     "dist/"
   ],
+  "workspaces": [
+    "test/demo-site"
+  ],
   "repository": "hexojs/hexo-server",
   "homepage": "https://hexo.io/",
   "keywords": [
